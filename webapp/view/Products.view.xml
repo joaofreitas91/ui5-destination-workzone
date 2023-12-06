@@ -1,0 +1,11 @@
+<mvc:View controllerName="com.lab2dev.products.list.controller.Products"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+        <content>
+        <List id="list" items="{/Products}">
+            <StandardListItem id="1" title="{ProductName}" />
+        </List>
+        </content>
+    </Page>
+</mvc:View>
