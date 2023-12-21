@@ -3,8 +3,8 @@
     xmlns="sap.m">
     <Page id="page" title="{i18n>title}">
         <content>
-        <List id="list" items="{/Products}">
-            <StandardListItem id="1" title="{ProductName}" />
+        <List id="list" items="{Products>/}">
+            <StandardListItem id="1" title="{Products>ProductName}" />
         </List>
         </content>
     </Page>
